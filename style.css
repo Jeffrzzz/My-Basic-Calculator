@@ -1,0 +1,82 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    
+}
+
+.calculator {
+    background:#1B1212;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 45px;
+    border-radius: 13px;
+    font-size: 20px;
+    cursor: pointer;
+    background:#272424	;
+    margin: 3px;
+    color: white;
+    
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    background:#1B1212;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+form input.equal {
+    background-color: #DB8C39;
+    color: white;
+    width: 130px;
+}
+
+form input.ac {
+    color:#DB8C39;
+}
+
+form input.del {
+    color:#DB8C39;
+}
+
+form input.percentage {
+    color:#DB8C39;
+}
+
+form input.division {
+    color:#DB8C39;
+    font-weight: bolder;
+}
+
+form input.multi {
+    color:#DB8C39;
+}
+
+form input.sub {
+    color:#DB8C39;
+}
+
+form input.add {
+    color:#DB8C39;
+}
+
+form input.exit {
+    color:#DB8C39;
+}
